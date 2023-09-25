@@ -1,0 +1,440 @@
+
+
+/* rubik-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/rubik-v28-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* rubik-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* rubik-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v28-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* rubik-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/rubik-v28-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* rubik-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/rubik-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* rubik-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/rubik-v28-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* rubik-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/rubik-v28-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+.header {
+    background: #F6F6F9;
+    height: 373px;
+   
+}
+
+.container {
+    width: 1440px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: auto;
+    align-items: center;
+}
+
+.head-info {
+    display: flex;
+    padding-top: 47px;
+    justify-content: space-between;
+}
+
+.dollor {
+    display: flex;
+    gap: 30px;
+    margin-left: 15px;
+    transform: translateY(-10px);
+    transform: translateX(-110px);
+}
+
+.header-logo {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 0px rgba(202, 202, 202, 0.25);
+}
+
+.header-span {
+    color: #7A7A7A;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-text {
+    color: #285193;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-input {
+    color: #CCC;
+    font-family: "Rubik";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FFF;
+    width: 145px;
+    height: 40px;
+    border: none;
+    padding-left: 15px;
+
+}
+
+.qidiruv-flex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-right: 60px;
+    width: 300px;
+   
+}
+
+.qidiruv-button {
+    width: 38.095px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    background: #FFF;
+}
+
+.rus-img {
+    transform: translateY(4px);
+}
+
+.ru-but {
+    width: 64.762px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: #535353;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tg-but {
+    border-radius: 5px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    width: 146px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    color: #FFF;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+    margin: auto;
+    background-color: #FFF;
+    height: 65px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+
+}
+
+.header-list {
+    width: 1151px;
+}
+
+.header-item {
+    list-style: none;
+}
+
+.item-link {
+    text-decoration: none;
+    color: #515151;
+    font-family: "Rubik";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+
+.reg-h2 {
+    padding-left: 20px;
+}
+.reg-input {
+    display: block;
+    margin: 20px;
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F1F1F1;
+    border: 2px solid #285193;
+    color: #888;
+    font-family: "Rubik";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+.reg-input1 {
+        display: block;
+        margin: 20px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #F1F1F1;
+        border: 2px solid #285193;
+        color: #888;
+        font-family: "Rubik";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+
+    .reg-but {
+    width: 221px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid rgba(40, 81, 147, 0.54);
+    background: #295093;
+    margin-left: 18px;
+    color: #FFF;
+    font-family: "Rubik";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+    .reg-h2 {
+    display: block;
+    color: #000;
+    font-family: "Rubik";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .regis-h2 {
+        color: #295091;
+    font-family: "Rubik";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+    .reg-text {
+    color: #888;
+    font-family: "Rubik";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+    .registration-div {
+        width: 510px;
+        border-radius: 5px;
+        border: 2px solid #BCC3CD;
+        background: #FFF;
+        padding-top: 23px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        justify-content: space-between;
+    }
+
+    .reg-link {
+        text-decoration: none;
+    }
+
+    .reg-flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .list {
+        display: flex;
+        margin-left: 65px;
+    }
+
+    .item {
+        list-style: none;
+        padding-left: 13px;
+    }
+
+    .reg-img {
+        transform: translateY(4px);
+    }
+
+    .reg-barlist {
+        display: flex;
+        
+    }
+
+    .reg-item {
+    transform: translateX(-25px);
+        list-style: none;   
+        
+    }
+
+    .registration-div {
+        margin-left: 800px;
+        transform: translateY(-815px);
+        border-radius: 5px;
+        box-shadow: 0px 8px 9px 5px rgba(57, 57, 57, 0.25);
+
+      
+    }
+
+
+    .footer {
+        background: #295093;
+        height: 225px;
+    }
+    
+    .li {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+    }
+    
+    .link {
+        color: #fff;
+        text-decoration: none;
+        pad: 20px;
+        border-radius: 5px;
+        background: #133C82;
+        padding: 10px 20px;
+    }
+    
+    .tect {
+        color: #fff;
+        font-family: "Rubik";
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    
+    .linku {
+        text-decoration: none;
+        margin-left: 10px;
+        border-radius: 5px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 10px;
+        color: #295093;
+    }
+    
+    .tg {
+        margin-bottom: -5px;
+        margin-right: 5px;
+    }
+    
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer-flex-p {
+        width: 365px;
+        height: 121px;
+        color: #FFF;
+        font-family: "Rubik";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        color: #FFF;
+        font-family: "Rubik";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .footer-flex-p1 {
+        width: 163px;
+        height: 106px;
+        color: #FFF;
+        font-family: "Rubik";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .footer-flex-p2 {
+        width: 225px;
+        height: 106px;
+        color: #FFF;
+        font-family: "Rubik";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
